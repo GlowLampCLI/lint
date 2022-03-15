@@ -1,0 +1,33 @@
+{
+  "name": "@glowlamp/lint",
+  "version": "1.0.0",
+  "description": "JS Linter for GlowLamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ESLint",
+    "JS",
+    "GlowLamp"
+  ],
+  "author": "EarthyOrange",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GlowLampCLI/lint.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/eslint-parser": "^7.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "8.x"
+  }
+}
